@@ -43,3 +43,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+function RAESearch(){
+    var RAesearch= document.getElementById("RAEsearch")
+    var FullSearch= "https://dle.rae.es/".concat('', RAesearch);
+    window.location.href=(FullSearch)
+}
