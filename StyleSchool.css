@@ -141,7 +141,7 @@ body {
 
 
 .News_table table, th, td{
-	background-color: rgba(255, 255, 255, 0.123), 255, 255;
+	background-color: rgba(255, 255, 255, 0);
 	width: 32%;
 	height: 650px;
 	text-align: center;
