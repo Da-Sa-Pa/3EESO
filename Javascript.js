@@ -44,7 +44,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 function RAESearchs(){
-    var RAesearch= document.getElementById("RAEsearch")
-    var FullSearch= "https://dle.rae.es/".concat('', RAesearch);
-    window.location.href=(FullSearch)
+  var RAesearch= document.getElementById("RAEsearch")
+  var FullSearch= "https://dle.rae.es/".concat('', RAesearch);
+  window.location.href=(FullSearch)
 }
