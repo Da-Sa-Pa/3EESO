@@ -302,6 +302,9 @@ body {
 	opacity: .4;
 	font-weight: 200;
 }
+.footer_text{
+	color: white;
+}
 .PhotoLink{
 	border-radius: 600%;
 }
