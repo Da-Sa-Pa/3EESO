@@ -148,6 +148,7 @@ body {
 	font-family: Helvetica;
 	box-shadow: 10px 10px 8px #10101010;
 	padding: 0px 25px;
+	opacity: 0,2;
 }
 
 .news_body{
