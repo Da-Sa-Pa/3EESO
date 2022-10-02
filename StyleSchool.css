@@ -321,7 +321,7 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
 }
-.mySlides{
+.mySlides fade{
 	z-index: -2;
 }
 .text {
