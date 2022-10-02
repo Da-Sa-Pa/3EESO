@@ -317,7 +317,7 @@ body {font-family: Verdana, sans-serif;}
 img {vertical-align: middle;}
 
 .slideshow-container {
-	z-index: 999;
+	z-index: -2;
   max-width: 1000px;
   position: relative;
   margin: auto;
