@@ -137,7 +137,9 @@
 	font-family: Helvetica;
 	box-shadow: 10px 10px 8px #10101010;
 }
-
+.Introduction_table{
+	border-radius: 5px;
+}
 
 
 .News_table table, th, td{
