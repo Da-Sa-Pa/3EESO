@@ -372,10 +372,6 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
-.slideshow-photo{
-	z-index: -2;
-}
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
