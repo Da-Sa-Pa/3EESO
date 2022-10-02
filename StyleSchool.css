@@ -367,7 +367,8 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+ z-index: -2;
+	max-width: 1000px;
   position: relative;
   margin: auto;
 }
