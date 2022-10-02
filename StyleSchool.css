@@ -136,6 +136,8 @@
 	text-align: center;
 	font-family: Helvetica;
 	box-shadow: 10px 10px 8px #10101010;
+}
+.Tip_table table{
 	border-radius: 20px;
 }
 
