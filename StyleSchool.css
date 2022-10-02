@@ -1,8 +1,8 @@
-body {
+.Index {
     background-image: url("https://monteprincipe.net/wp-content/uploads/2018/12/monteprincipe-servicios-san-pablo-CEU.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
 }
 
 .Tituloprincipal{
