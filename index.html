@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8"/>
-	<title>3ºEEso</title>
-	<link href="Logotipo patito bañera infantil colorido.png" rel="icon">
-	<link href="StyleSchool.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="StyleSchool.css" rel="stylesheet" type="text/css">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link href="Logotipo patito bañera infantil colorido.png" rel="icon">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
     <script type="text/javascript" src="Javascript.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        .carousel-inner img {
+          width: 100%; /* Set width to 100% */
+          min-height: 200px;
+        }
+    
+        /* Hide the carousel text when the screen is less than 600 pixels wide */
+        @media (max-width: 600px) {
+          .carousel-caption {
+            display: none; 
+          }
+        }
+      </style>
+    
+	<title>3ºEEso</title>
 </head>
-<body onload="currentSlide(1)" class="Index">
+<body class="Index">
     <div class="header">
         <div class="inner_header">
             <div class="logo_container">
@@ -33,35 +57,41 @@
     <br>
     <br>
     <br>
-    <div class="slideshow-container">
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="Logotipo patito bañera infantil colorido.png" style="width:100%">
-                <div class="text">Logo de la páginat</div>
-              </div>
-              
-              <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="Florecillas.png" style="width:100%">
-                <div class="text">Florecilla del monte, trabaja</div>
-              </div>
-              
-              <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="https://tse3.mm.bing.net/th?id=OIP.FhYlCubIKPImuEdEhXoQ9QHaGB&pid=Api&P=0" style="width:100%">
-                <div class="text">Célula vegetal</div>
-              </div>
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
-        
+
+<!-- Inicio Carrousel-->    
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="Logotipo patito bañera infantil colorido.png" alt="Logo página web" style="width:100%;">
+        </div>
+        <div class="item">
+            <img src="Florecillas.png" alt="Florecillas" style="width:100%;">
+        </div>
+        <div class="item">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.FhYlCubIKPImuEdEhXoQ9QHaGB&pid=Api&P=0" alt="Provisional" style="width:100%;">
+        </div>
     </div>
-    <br>
-        
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Siguiente</span>
+    </a>
+  </div>
+</div>
+<!-- Fin Carrousel-->    
+
     <br>
     <br>
     <br>
