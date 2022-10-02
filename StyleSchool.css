@@ -389,7 +389,7 @@ img {vertical-align: middle;}
 
 /* Next & previous buttons */
 .prev, .next {
-	z-index: 100;
+	z-index: 100 !important;
   cursor: pointer;
   position: absolute;
   top: 50%;
