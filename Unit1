@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/custom.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+		<link href="StyleSchool.css" rel="stylesheet" type="text/css">
+	
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+		<link href="LogoJolinesMacho.png" rel="icon">
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+		<script type="text/javascript" src="Javascript.js"></script>   
+		<title>3ºEEso</title>
+	</head>   
+    <body class="Explanations">
+        
+	<!-- Inicio menú superior -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid" style="background-color:white; color: black">
+		<ul class="nav navbar-nav navbar-default">
+			<li><a href="index.html"><h1>3ºE<span>ESO</span></h1></a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">        
+			<li><a href="./news.html"><h2>Noticias</h2></a></li>
+			<li><a href="./Asignaturas.html"><h2>Asignaturas</h2></a></li>
+			<li><a href="./Calendarios.html"><h2>Calendarios</h2></a></li>
+			<li><a href="./Gallery.html"><h2>Cotilleos</h2></a></li>
+			<li><a href="./testemail.html"><h2>Sobre nosotros</h2></a></li>
+			<li><a href="./index.html"><h2>Cerrar Sesión</h2></a></li>
+		</ul>
+		</div>
+	</nav>    
+	<!-- Fin menú superior -->
+	<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+	<div class="news_subtitle">
+			<div class="Subtitle_news">
+				<center><p style="font-size: 350%; font-family: Helvetica; font-weight: bold; color: white;">English</p></center>
+				<center><p style="font-size: 350%; font-family: Helvetica; font-weight: bold; color: white;">Unit 1</p></center>
+			</div>
+	</div>
+
+	<div class="News_table">
+		<center>
+			<table>
+					<tbody>
+					  <tr>
+					    <th><p style=" font-weight: bold; font-size: 220% ;"> Suma y resta de Fracciones</p>
+							<iframe width="520" height="415"
+								src="https://www.youtube.com/embed/rSLuXOTdje8">
+							</iframe>
+							<p style="font-size: 120%; font-weight: 400;">
+								La suma y resta de fracciones puede llegar a ser un poco complicada pero si simplificas y haces bien el mínimo común múltiplo, no tiene ningún secreto.
+							</p>
+						</th>
+						<th><p style=" font-weight: bold; font-size: 220% ;"> Multiplicación de Fracciones</p>
+							<iframe width="520" height="415"
+								src="https://www.youtube.com/embed/pHWhPo4_21s">
+							</iframe>
+							<p style="font-size: 120%; font-weight: 400;">
+								La Multiplicación de Fracciones, en mi opinión es de las operaciones más fáciles de hacer respecto a fracciones. Siempre es aconsejable reducir.
+							</p>
+						</th>
+					  </tr>
+					  <tr>
+					    <th><p style=" font-weight: bold; font-size: 220% ;"> Fracción generatiz y decimales</p>
+							<iframe width="420" height="315"
+								src="https://www.youtube.com/embed/Iy7de-ytpxM">
+							</iframe>
+							<iframe width="420" height="315"
+								src="https://www.youtube.com/embed/ERz-ELOTdkc">
+							</iframe>
+							<iframe width="420" height="315"
+								src="https://www.youtube.com/embed/Pwzn-6ncSrM">
+							</iframe>
+						</th>
+						<th><p style=" font-weight: bold; font-size: 220% ;"> Troncho y Poncho</p>
+							<iframe width="520" height="415"
+								src="https://www.youtube.com/embed/anfrZhAd3JU">
+							</iframe>
+							<p style="font-size: 120%; font-weight: 400;">
+								Troncho y Poncho es una serie de videos graciosos sobre matemáticas donde puedes pasar un buen rato a  la vez que aprendes mates.
+							</p>
+						</th>
+					  </tr>
+					  <tr>
+					    <th><p style=" font-weight: bold; font-size: 220% ;"> Decimales</p>
+							<iframe width="520" height="415"
+								src="https://www.youtube.com/embed/dAk3iD93BBE">
+							</iframe>
+						</th>
+						<th><p style=" font-weight: bold; font-size: 220% ;">Fracciones</p>
+							<iframe width="520" height="415"
+								src="https://www.youtube.com/embed/7Xvlv3SCA4c">
+							</iframe>
+							<p style="font-size: 120%; font-weight: 400;">
+								Lorem ipsum dolor sit amet consectetur adipiscing elit diam, laoreet parturient ultrices vestibulum integer interdum suspendisse, class blandit praesent cum semper fermentum ridiculus. Vel cursus netus nulla semper ut facilisi inceptos, auctor bibendum tristique aliquam suscipit et, curae fames ultrices odio porta imperdiet. Justo auctor senectus egestas malesuada suscipit nunc non platea cubilia, ultricies viverra praesent odio taciti suspendisse nibh ultrices vivamus, aenean tempor scelerisque tortor ut nec fermentum tincidunt.							
+							</p>
+						</th>
+					  </tr>
+					</tbody>
+			</table>
+		</center>
+	</div>
+
+	<div class="spaces_final">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	</div>
+	<footer>
+		<div class="footer_container">
+			<h3><center>3ºEso</center></h3>
+			<p><center>Por un curso excepcional</center></p>
+			<div class="footer_bottom">
+				<ul class="socials">
+					<li><a href="https://www.instagram.com/candela_2g/"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.facebook.com/people/Candela-Gonz%C3%A1lez-G%C3%B3mez/100008026695946/"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://twitter.com/404/"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://www.youtube.com/404/"><i class="fa fa-youtube"></i></a></li>
+					<li><a href="https://www.linkedin.com/404(/?_l=en_US"><i class="fa fa-linkedin-square"></i></a></li>
+				</ul>
+				<p class="footer_text">Copyright &copy;2022 OutputtingCode. Designed by <span>Daniel Sánchez, Candela González & David González</span></p>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
