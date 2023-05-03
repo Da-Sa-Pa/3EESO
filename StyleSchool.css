@@ -21,7 +21,7 @@
 .navbar {
 	background-color: #555;
 	overflow: hidden;
-	height: 60px; /* Altura fija para la barra de navegación */
+	height: 120px; /* Altura fija para la barra de navegación */
   }
   
   /* Navbar links */
